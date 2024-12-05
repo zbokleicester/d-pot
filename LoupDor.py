@@ -27,35 +27,6 @@ def connexion(, ):
 # PARTIE NON COMPLETE */
     
 
-# taille_map = input('taille')
-# timeout_tour = input('temps')
-# nbr_toursmax = input('nombres_tours')
-
-
-# class Map():
-
-#      def generer_map(self):
-
-#          taille_map = input('taille de la map: ')
-        
-#      def afficher_grille(self, grille):
-
-#          return
-
-# class demarrer_partie():
-
-#     def __init__(self) -> None:
-#         pass
-
-#     def timeout_tour(self):
-
-#         pass
-    
-#     def nb_tours(self):
-
-#         pass
-
-
 class Parametre_Jeu():
 
     def __init__(self, taille_map, nbr_toursmax, timeout_tours, demarrer_partie):
@@ -142,7 +113,7 @@ print(f"timeout tours: {chargement_jeu.parametres.timeout_tours}")
 print(f"Demarrer partie: {chargement_jeu.parametres.demarrer_partie}")
 
 
-# ---------------------Changement des parametres------------------------------
+# ---------------------Changement des parametres------------------------------------------------------------------
 
 # parametres.taille_map(20,20)
 # parametres.nbr_toursmax(20)
